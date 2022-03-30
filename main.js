@@ -1,8 +1,16 @@
 // ==UserScript==
-// @name     Minds Style Upgrade
-// @version  1
-// @grant    none
+// @namespace     https://openuserjs.org/users/lynxdingo
+// @name          Minds Limitlezz
+// @description   Upgrade your Minds experience
+// @copyright     2022, lynxdingo (https://openuserjs.org/users/lynxdingo)
+// @license       MIT
+// @version       1.0
+// @grant         none
 // ==/UserScript==
+
+// ==OpenUserJS==
+// @author lynxdingo
+// ==/OpenUserJS==
 
 function hideBoosted(){
   // create style element
