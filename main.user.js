@@ -5,6 +5,7 @@
 // @copyright     2022, lynxdingo (https://openuserjs.org/users/lynxdingo)
 // @license       MIT
 // @version       1.0
+// @include       www.minds.com/*
 // @grant         none
 // ==/UserScript==
 
