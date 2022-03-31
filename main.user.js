@@ -1,17 +1,10 @@
 // ==UserScript==
-// @namespace     https://openuserjs.org/users/lynxdingo
 // @name          Minds Limitlezz
-// @description   Upgrade your Minds experience
-// @copyright     2022, lynxdingo (https://openuserjs.org/users/lynxdingo)
-// @license       MIT
 // @version       1.0
-// @include       www.minds.com/*
-// @grant         none
+// @updateURL     https://raw.githubusercontent.com/lynxdingo/mindslimitlezz/main.user.js
+// @description   Upgrade your Minds experience
+// @include       https://www.minds.com/*
 // ==/UserScript==
-
-// ==OpenUserJS==
-// @author lynxdingo
-// ==/OpenUserJS==
 
 function hideBoosted(){
   // create style element
