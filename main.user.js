@@ -12,19 +12,31 @@ function hideBoosted(){
 
   // add CSS styles
   style.innerHTML = `
+    /* Newsfeed page */
     m-newsfeed--boost-rotator,
-		m-featured-content, 
-		.m-newsfeed--boost-sidebar,
-		.m-groupGrid__right.m-pageLayout__pane--right {
-			display:none
-		}
+	m-featured-content, 
+	.m-newsfeed--boost-sidebar,
+	.m-groupGrid__right.m-pageLayout__pane--right {
+		display:none
+	}
 
-		.m-newsfeed--feed.m-pageLayout__pane--main,
-		.m-pageLayout__pane--main.m-pageLayout__pane--main {
-			width: 100%;
-			max-width: 100%;
-		}
-	`;
+	.m-newsfeed--feed.m-pageLayout__pane--main,
+	.m-pageLayout__pane--main.m-pageLayout__pane--main {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	/* Keeps media only */
+	/* <user_name>?layout=grid */
+	m-feedgrid m-activity__minimalmetrics,
+	m-feedgrid m-activity__ownerblock,
+	m-feedgrid .m-activityContent__mediaDescription,
+	m-feedgrid .m-activityContent__message,
+	m-feedgrid .m-activity__remindDeletedNotice,
+	m-feedgrid .meta.m-rich-embed-has-thumbnail {
+		display:none;
+	}
+  `;
 
   // append the style to the DOM in <head> section
   document.head.appendChild(style);
