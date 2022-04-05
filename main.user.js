@@ -4,6 +4,8 @@
 // @updateURL     https://raw.githubusercontent.com/lynxdingo/mindslimitlezz/main.user.js
 // @description   Upgrade your Minds experience
 // @include       https://www.minds.com/*
+// @copyright     2022, lynxdingo (https://openuserjs.org/users/lynxdingo)
+// @license       MIT
 // ==/UserScript==
 
 function addCSS(){
