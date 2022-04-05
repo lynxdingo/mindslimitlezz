@@ -6,7 +6,7 @@
 // @include       https://www.minds.com/*
 // ==/UserScript==
 
-function hideBoosted(){
+function addCSS(){
   // create style element
   const style = document.createElement('style');
 
@@ -46,7 +46,7 @@ function init(){
 	// listen for load event in the window
 	window.addEventListener("load", function () {
   	// do things after the DOM loads fully
-  	hideBoosted();
+  	addCSS();
 	});
 }
 
